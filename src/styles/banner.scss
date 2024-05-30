@@ -1,0 +1,40 @@
+.banner-section {
+    background-image: url('../assets/women.jpg');
+    /* Set background position to top right corner */
+    background-position: top 100px right;
+    /* Ensure background image covers the entire viewport */
+    background-size: 300px;
+    /* Prevent background image from repeating */
+    background-repeat: no-repeat;
+
+}
+
+
+@media screen and (max-width: 640px) {
+    .banner-section {
+        background-image: none;
+        background-size: 320px 320px;
+    }
+}
+
+.info-section {
+    background-image: url('../assets/women-2.jpg');
+    /* Set background position to top right corner */
+    background-position: top  left;
+    /* Ensure background image covers the entire viewport */
+    background-size: 300px;
+    /* Prevent background image from repeating */
+    background-repeat: no-repeat;
+    background-color: #e6beb4;
+    padding: 32px 40px 32px 300px;
+}
+
+
+@media screen and (max-width: 640px) {
+    .info-section {
+        background-image: none;
+        background-size: 320px 320px;
+        padding: 25px;
+    }
+
+}
