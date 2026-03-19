@@ -5,9 +5,9 @@ const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const pages = [
     { pageTitle: "Home", pageUrl: "/" },
-    { pageTitle: "About us", pageUrl: "/about-us" },
-    { pageTitle: "Services", pageUrl: "/services" },
-    { pageTitle: "Contact us", pageUrl: "/contact-us" },
+    { pageTitle: "About us", pageUrl: "/" },
+    { pageTitle: "Services", pageUrl: "/" },
+    { pageTitle: "Contact us", pageUrl: "/" },
   ];
 
   let location = useLocation().pathname;
